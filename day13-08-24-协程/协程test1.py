@@ -31,7 +31,9 @@ async def main():
         tasks.append(task)
 
     # return await asyncio.wait(tasks)
-    return await asyncio.gather(*tasks)
+    # return await asyncio.gather(*tasks)
+    ret = await asyncio.gather(*tasks)
+    return ret
     # print('耗时%.2f' % (time.time() - t1))
 
 
