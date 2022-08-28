@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /*使用class  类选择器 在使用的使用 .名称*/
+        .c_h1{
+            /*设置底部划线 2像素 绿色*/
+            border-bottom:2px solid green;
+            color:blue;
+        }
+        /*id选择器 标签设置id 使用#id名称*/
+        #c_id{
+            /*设置大一点的字体*/
+            font-size: 40px;
+            color:yellow;
+        }
+        /*HTML选择器 以HTML名称作为选择器*/
+        h1{
+            color:red;
+        }
+        /* 优先级  id>class>HTML选择器  如果选择器相同 就近原则*/
+    </style>
+</head>
+<body>
+<!--当前特殊 使用的是style属性  没有用选择器  style属性优先级最高-->
+<h1 class="c_h1" id="c_id" style="color: aqua">我们学习HTML 是为了后面的xpath  学习css 是为了后面的bs4  不是为了写页面</h1>
+<!--html注释-->
+
+</body>
+</html>
